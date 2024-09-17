@@ -1,1 +1,32 @@
-!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="clock-container">
+        <h1 class="name">PomoGuru</h1>
+        <div class="timer-container">
+            <div class="btns">
+                <button data-time="25" id="btn1">Pomodoro</button>
+                <button data-time="5" id="btn2">Short Break</button>
+                <button data-time="15" id="btn3">Long Break</button>
+            </div>
+            <div class="clock-interface">
+                <div class="time">0:00</div>
+                <button id="start-pause">START</button>
+            </div>
+        </div>
+    </div>
+    <div class="info-container">
+        <h2> A Productivity Tool for Staying Focused and Optimizing Flow State</h2>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>

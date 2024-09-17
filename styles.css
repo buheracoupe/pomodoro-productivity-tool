@@ -1,1 +1,81 @@
+*,
+*::before,
+*::after{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family: "Quicksand", system-ui;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+}
+button{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-family: "Quicksand", system-ui;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.name{
+    width: 100%;
+    font-size: 2rem;
+    height: 20%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px;
+}
+img{
+object-fit: contain;
+}
+.clock-container{
+    background-color: rgb(37, 31, 203);
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+.btns{
+    width: 50%;
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(86, 86, 159);
+    border-radius: 7px;
+    padding: 10px 5px;
+    
+}
+.clock-interface{
+    width: 500px;
+    height: 50vh;
+    margin: 0 auto;
+    background-color: rgb(86, 86, 159);
+    margin-top: 15px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.time{
+    font-size: 7rem;
+    font-weight: 600;
+}
+.clock-interface > *{
+    margin-bottom: 20px;
+}
+#start-pause{
+    background-color: white;
+    color: rgb(37, 31, 203);
+    padding: 7px;
+    border-radius: 3px;
 
+}
