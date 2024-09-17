@@ -79,3 +79,15 @@ object-fit: contain;
     border-radius: 3px;
 
 }
+.prog-btn{
+    transition: all .3s ease;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+.prog-btn.active{
+    background-color: rgb(10, 10, 87);
+
+}
+.time-notice{
+    letter-spacing: 1.5px;
+}
